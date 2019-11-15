@@ -13,6 +13,7 @@ Game::~Game()
 
 void Game::mainMenu()
 {
+	Automobile automobile;
 	cout << " << MENU >> " << endl << endl;
 	cout << "1. START PLAY" << endl;
 	cout << "2. MODIFICATIONS" << endl;
@@ -28,6 +29,23 @@ void Game::mainMenu()
 	case 0:
 			playing = false;
 			break;
+	case 1:
+			playing = false;
+			cout << "1" << endl;
+			break;
+	case 2:
+			playing = false;
+			cout << "2" << endl;
+			break;
+	case 3:
+			playing = false;
+			cout << "3" << endl;
+			break;
+	case 4:
+			playing = false;
+			automobile.printStats();
+			break;
+
 		default:
 			break;
 	}

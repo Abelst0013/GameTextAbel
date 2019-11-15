@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <iomanip>
+#include <ctime>
 
 #include <string>
 
@@ -12,11 +15,18 @@ public:
 
 	void levelUp();
 	void ExpUp();
+	void printStats();
 
 private:
 	string name;
+	string brand;
+	string Clase;
 	int level;
 	int exp;
-
+	int HP;
+	int Acceleration;
+	int Control;
+	int Tspeed;
+	int Strength;
 };
 
