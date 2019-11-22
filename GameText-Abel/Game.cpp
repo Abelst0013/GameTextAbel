@@ -14,6 +14,7 @@ Game::~Game()
 void Game::mainMenu()
 {
 	Automobile automobile;
+	Modifications modifications;
 	cout << " << MENU >> " << endl << endl;
 	cout << "1. START PLAY" << endl;
 	cout << "2. MODIFICATIONS" << endl;
@@ -36,6 +37,7 @@ void Game::mainMenu()
 	case 2:
 			playing = false;
 			cout << "2" << endl;
+			modifications.ModificationsMenu();
 			break;
 	case 3:
 			playing = false;

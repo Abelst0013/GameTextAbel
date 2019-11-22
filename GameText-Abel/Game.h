@@ -1,5 +1,6 @@
 #pragma once
 #include "Automobile.h"
+#include "Modifications.h"
 
 using namespace std;
 

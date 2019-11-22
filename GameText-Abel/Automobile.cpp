@@ -14,6 +14,7 @@ Automobile::Automobile()
 	Control = 4;
 	Tspeed = 5;
 	Strength = 5;
+	VictoryPoints = 0;
 }
 
 
@@ -45,5 +46,6 @@ void Automobile::printStats()
 	cout << "Control: " << Control << "/10" << endl;
 	cout << "Top speed: " << Tspeed << "/10" << endl;
 	cout << "Strength: " << Strength << "/10" << endl << endl;
-	cout << endl <<  "0. Quit" << endl;
+	cout << "Points: " << VictoryPoints << endl;
+	cout << endl << "0. Quit" << endl;
 }

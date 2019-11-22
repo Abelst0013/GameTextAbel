@@ -16,6 +16,7 @@ public:
 	void levelUp();
 	void ExpUp();
 	void printStats();
+	int VictoryPoints;
 
 private:
 	string name;
@@ -28,5 +29,6 @@ private:
 	int Control;
 	int Tspeed;
 	int Strength;
+	
 };
 
